@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.w-80 {
+    max-width: 400px;
+}
+
+
+.form-field {
+    margin-bottom: 1rem;
+}
+
+.form-field label {
+    display: block;
+    font-size: 0.875rem; 
+    margin-bottom: 0.5rem;
+}
+
+.form-field input,
+.form-field select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+
+.checkbox-field {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-field input {
+    margin-right: 0.5rem;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4caf50; 
+    color: #fff; 
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+
+.entries-wrapper {
+    margin-top: 2rem;
+}
+
+
